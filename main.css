@@ -1,0 +1,115 @@
+
+body{
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background-color:#fff;
+	color:#333;
+	font-size:12px;
+	padding-left:10px;
+	padding-bottom:30px;
+	line-height: 150%;
+}
+
+input, select, textarea{
+	border:1px solid #CCCCCC;
+	padding: 5px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+input.blur {
+	color: #999;
+}
+
+.demo{
+	border:solid 1px #ccc;
+	background-color:#def;
+	padding:10px;
+	text-align: left;
+}
+
+form div {
+	padding: 4px 4px 4px 4px;
+}
+
+label {
+	float: left;
+	width: 70px;
+	text-align: left;
+}
+
+#bar{
+background-color:#5fbbde;
+width:0px;
+height:16px;
+}
+
+#barbox{
+float:right; 
+height:16px; 
+background-color:#FFFFFF; 
+width:100px; 
+border:solid 2px #000; 
+margin-right:3px;
+-webkit-border-radius:5px;-moz-border-radius:5px;
+}
+
+.clear{
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+
+#container{
+	margin: 1em auto;
+	width: 400px;
+}
+#container ul{
+	list-style: none;
+	list-style-position: outside;
+}
+#container ul.menu li{
+	float: left;
+	margin-right: 5px;
+	margin-bottom: -1px;
+}
+#container ul.menu li{
+	font-weight: 700;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	background: #fff;
+	border: 1px solid #d0ccc9;
+	border-width: 1px 1px 0 1px;
+	position: relative;
+	color: #5f95ef;
+	cursor: pointer;
+}
+
+.content{
+	margin: 0pt auto;
+	background: #efefef;
+	background: #fff;
+	border: 1px solid #d0ccc9;
+	text-align: left;
+	padding-bottom: 20px;
+	font-size: 10px;
+}
+
+.content ul{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content h1{
+	line-height: 1em;
+	vertical-align: middle;
+	height: 28px;
+	padding: 10px 10px 10px 52px;
+	font-size: 22px;
+	background: transparent url(shout.png) no-repeat scroll left top;
+}
+
+
+#loading{
+	text-align: center;
+}
